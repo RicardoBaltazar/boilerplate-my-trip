@@ -1,0 +1,4 @@
+{
+  //presets do typescript e nextjs para escrever testes dentro do jest utilizando códigos typescript e javascript
+  "presets": ["next/babel", "@babel/preset-typescript"]
+}
