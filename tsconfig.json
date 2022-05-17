@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src", //pasta base para realizar as importações
     "target": "es5",
     "lib": [
       "dom",
