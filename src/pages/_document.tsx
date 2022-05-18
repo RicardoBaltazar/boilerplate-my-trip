@@ -10,6 +10,8 @@ import Document, {
 //utilizar styled-components no lado do servidor, impede o servidor renderizar as informaçõe mas não renderizar o estilo.
 import { ServerStyleSheet } from 'styled-components'
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
     const sheet = new ServerStyleSheet()
